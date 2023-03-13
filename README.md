@@ -39,7 +39,7 @@ They are taken from [here](http://www.braeunig.us/space/glossary.htm)
 
 ## How to use
 
-```js
+```ts
 // Import the glossary (an array of strings: string[])
 import { spaceRocketGlossary, randomTermFromSpaceRocketGlossary } from 'space-rocket-glossary';
 
