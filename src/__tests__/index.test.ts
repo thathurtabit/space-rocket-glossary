@@ -1,13 +1,11 @@
-import uuid from '../index';
+import { spaceRocketGlossary, randomTermFromSpaceRocketGlossary } from '../index';
 
-describe('valid UUID', () => {
-  let VALID_UUID_REGEX: RegExp;
-
-  beforeAll(() => {
-    VALID_UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+describe('Check SpaceRocketGlossary has data', () => {
+  test('should return list of strings', () => {
+    expect(spaceRocketGlossary.length).toBeGreaterThan(1)
+    expect(typeof spaceRocketGlossary[0]).toBe('string')
   });
-
-  test('should match a valid UUID', () => {
-    expect(VALID_UUID_REGEX.test(uuid.v4())).toBeTruthy();
+  test('should return a random item from glossary', () => {
+    expect(typeof randomTermFromSpaceRocketGlossary).toBe('string')
   });
 });

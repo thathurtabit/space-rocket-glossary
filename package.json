@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-package-boilerplate",
-  "version": "0.2.3",
-  "description": "TypeScript NPM Module Boilerplate",
+  "name": "space-rocket-glossary",
+  "version": "0.0.1",
+  "description": "An array of Rocket and Space Technology terms",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,18 +18,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertcisco/ts-npm-package-boilerplate.git"
+    "url": "git+https://github.com/thathurtabit/space-rocket-glossary.git"
   },
   "keywords": [
-    "boilerplate",
-    "typescript"
+    "space",
+    "rockets",
+    "technology",
+    "glossary",
+    "dictionary",
+    "data"
   ],
-  "author": "Hebert Cisco",
+  "author": "Stephen Fairbanks and braeunig.us/space",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hebertcisco/ts-npm-package-boilerplate/issues"
+    "url": "https://github.com/thathurtabit/space-rocket-glossarye/issues"
   },
-  "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
+  "homepage": "https://github.com/thathurtabit/space-rocket-glossary#readme",
   "devDependencies": {
     "@types/jest": "29.4.0",
     "@typescript-eslint/eslint-plugin": "5.54.0",

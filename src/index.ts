@@ -1,4 +1,5 @@
-export { Uuid } from './helpers/uuid';
-import uuid from './helpers/uuid';
+import { spaceRocketGlossary } from './data/space-rocket-data';
 
-export default uuid;
+const randomTermFromSpaceRocketGlossary = spaceRocketGlossary[Math.floor(Math.random() * spaceRocketGlossary.length)]
+
+export { spaceRocketGlossary, randomTermFromSpaceRocketGlossary };
